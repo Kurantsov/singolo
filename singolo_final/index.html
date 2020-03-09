@@ -13,10 +13,10 @@
         <h1 class="logo">SINGOLO<span>*</span></h1>
         <ul class="navigation">
             <li class="navigation_list"><a class="navigation_link" href="#">HOME</a></li>
-            <li class="navigation_list"><a class="navigation_link" href="#">SERVICES</a></li>
-            <li class="navigation_list"><a class="navigation_link" href="#">PORTFOLIO</a></li>
-            <li class="navigation_list"><a class="navigation_link" href="#">ABOUT</a></li>
-            <li class="navigation_list"><a class="navigation_link" href="#">CONTACT</a></li>
+            <li class="navigation_list"><a class="navigation_link" href="#services">SERVICES</a></li>
+            <li class="navigation_list"><a class="navigation_link" href="#portfolio">PORTFOLIO</a></li>
+            <li class="navigation_list"><a class="navigation_link" href="#about">ABOUT</a></li>
+            <li class="navigation_list"><a class="navigation_link" href="#contact">CONTACT</a></li>
         </ul>
 
     </section>
@@ -29,7 +29,7 @@
     <img class="iphone_horizontal" src="assets/slider/iPhone%20Horizontal.png" alt="iphone_horizontal">
 </section>
 
-<section class='services'>
+<section class='services' id="services">
     <h1 class="service_heading">Our Services</h1>
     <p class="service_text">
         Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis,
@@ -77,7 +77,7 @@
 
 </section>
 
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
     <div class="portfolio_title">Portfolio</div>
     <p class="portfolio_text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
         eget lacinia odio sem nec elit.</p>
@@ -102,7 +102,7 @@
     </div>
 </section>
 
-<section class="about_us">
+<section class="about_us" id="about">
     <div class="about_us_title">About Us</div>
     <p class="about_us_heading">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis,
         non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
@@ -147,7 +147,7 @@
     </div>
 </section>
 
-<section class="get_a_quote">
+<section class="get_a_quote" id="contact">
     <div class="get_heading">Get a Quote</div>
     <div class="get_title">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis,
         non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus,
@@ -176,9 +176,9 @@
 
     </div>
     <form class="contacts_form" method="post">
-        <input class="contacts_field" type="text" name="name" placeholder="Name (Required)">
-        <input class="contacts_field" type="text" name="email" placeholder="Email (Required)">
-        <input class="contacts_field" type="text" name="subject" placeholder="Subject">
+        <input class="contacts_field" type="text" name="name" placeholder="Name (Required)" required>
+        <input class="contacts_field" type="text" name="email" placeholder="Email (Required)" required>
+        <input class="contacts_field" type="text" name="subject" placeholder="Subject" required>
         <textarea class="contacts_textarea contacts_field" name="description"
                   placeholder="Describe your object in detail..."></textarea>
     </form>
