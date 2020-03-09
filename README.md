@@ -1,3 +1,3 @@
 # singolo
 
-https://kurantsov.github.io/singolo/index.html
+https://kurantsov.github.io/singolo/singolo_final/index.html
