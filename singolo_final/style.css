@@ -726,3 +726,23 @@ li:hover {
     position: absolute;
     margin: 49px 0 0 60px;
 }
+
+.submit {
+    position: absolute;
+    margin: 230px 0 0 -623px;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    border: none;
+    color: #f48c8f;
+    font-family: "Lato", sans-serif;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+.contacts_link:hover {
+    cursor: pointer;
+}
